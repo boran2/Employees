@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "vue-cli-service serve"
+    "start": "vue-cli-service serve",
+    "heroku-postbuild": "webpack --config webpack.config.prod.js"
   },
   "heroku-run-build-script": true,
   "dependencies": {
@@ -29,7 +30,8 @@
     "sass-loader": "^10.0.0",
     "vue-cli-plugin-vuetify": "~2.4.2",
     "vue-template-compiler": "^2.6.11",
-    "vuetify-loader": "^1.7.0"
+    "vuetify-loader": "^1.7.0",
+    "webpack-cli": "^4.9.1"
   },
   "eslintConfig": {
     "root": true,
