@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "start": "vue-cli-service serve",
-    "heroku-postbuild": "webpack --config webpack.config.prod.js"
+    "heroku-postbuild": "vue-cli-service serve"
   },
   "heroku-run-build-script": true,
   "dependencies": {
